@@ -1,12 +1,12 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Six Words, One Story — "Astronaut landed safely. Earth was gone."
-// A complete story in exactly six words: a long voyage home, a safe
-// landing, and the twist — the home he returned to is gone.
-// "Safely" earns its place: he survived the journey, only to find
-// there is nothing left to come home to. Six words, forty chars.
-const STORY = "Astronaut landed safely. Earth was gone.";
+// Six Words, One Story — "He kept her voicemail. Still does."
+// A complete story in exactly six words: grief and loyalty in one
+// breath. "Still does" is the turn — a past habit that never ended,
+// one whole life implied in the voicemail he cannot delete.
+// Six words, thirty-four characters.
+const STORY = "He kept her voicemail. Still does.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
